@@ -24,24 +24,9 @@
 
 此外，通过改变给定的$\pi、p、q$的初值，无论是李航老师书里的数据，还是通过随机数仿真的结果，最后稳定结果都很依赖初值。
 
-|你好|
-| --- |
-| 再见 |
-
-|  你好 |dataset | learning rate | activation function|hidden size|acc | 
-|      :----:  | :----: |        :----:  |        :----:     |   :----:  | :----:    |
-|   logistic   |   exam |      0.1       |         \         |      \    | 75%       |
-|   softmax    |   exam |       0.01     |         \         |      \    | 75%       |
-|ANN from Scratch| exam |       0.01    |      sigmoid      |      50    | 75%       |
-|ANN from Scratch| exam |       0.005    |      sigmoid      |     100   | 75%       |
-|ANN from Scratch| exam |       0.1      |      sigmoid      |     100   | 69%       |
-|ANN from Scratch| exam |       0.005     |      sigmoid     |     200   | 71%       |
-|ANN from Scratch| exam |       0.005     |      sigmoid     |     500   | 68%       |
-|ANN from Scratch| exam |       0.001     |      relu        |     100   | 69%       |
-|   softmax    |   iris |       0.1       |         \         |      \    | 93%       |
-|ANN from Scratch| iris |       0.1      |      sigmoid      |      50    | 93%       |
-|ANN from Scratch| iris |       0.1     |      sigmoid      |     100   | 93%       |
-|ANN from Scratch| iris |       0.1      |      sigmoid      |     500   | 93%       |
-|ANN from Scratch| iris |       0.01     |      sigmoid     |     100   | 93%       |
-|ANN from Scratch| iris |       0.01     |      relu        |     100   | 89%       |
-|ANN from Scratch| iris |       0.1     |      relu        |     100   | 90%       |
+|      Name\rtho       |     Mean        |        Var      |
+|      :----:  | :----: |        :----:  |        :----:     |
+|      CBOW_HS_our     |    0.2681439    |   0.000682719   |
+|   skip-gram_NEG_our  |    0.2738680    |   0.002115254   |
+|  CBOW_HS_our_gensim  |    0.2911922    |   0.000595353   |
+| skip-gram_NEG_gensim |    0.1124676    |   0.000987214   |
