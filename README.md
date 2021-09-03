@@ -24,6 +24,8 @@
 
 此外，通过改变给定的$\pi、p、q$的初值，无论是李航老师书里的数据，还是通过随机数仿真的结果，最后稳定结果都很依赖初值。
 
+| 你好 |
+
 |  你好 |dataset | learning rate | activation function|hidden size|acc | 
 |      :----:  | :----: |        :----:  |        :----:     |   :----:  | :----:    |
 |   logistic   |   exam |      0.1       |         \         |      \    | 75%       |
